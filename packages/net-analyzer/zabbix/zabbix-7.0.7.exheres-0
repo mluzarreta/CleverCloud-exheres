@@ -5,3 +5,11 @@
 require zabbix
 
 PLATFORMS="~amd64"
+
+DEPENDENCIES+="
+   run:
+        dev-lang/php:=[>=8.0]
+        dev-db/postgresql:=[>=13]
+  suggestion:
+        www-servers/apache
+"
